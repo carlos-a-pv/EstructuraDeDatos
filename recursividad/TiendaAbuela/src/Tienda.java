@@ -69,6 +69,11 @@ public class Tienda {
     }
 
     public static ArrayList<Producto> buscarProducto(double valor) {
-        return Categoria.servicioBuscarProductos(valor, listaCategorias);
+        ArrayList<Producto> listaProductos = new ArrayList<>();
+
+        listaCategorias.forEach(categoria -> {
+            listaProductos.addAll(categoria.buscarProductos(valor));
+        });
+        return listaProductos;
     }
 }

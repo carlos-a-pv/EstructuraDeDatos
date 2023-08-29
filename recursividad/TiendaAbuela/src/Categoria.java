@@ -32,20 +32,20 @@ public class Categoria {
         return listaProductos;
     }
 
-    public static ArrayList<Producto> servicioBuscarProductos(double valor, ArrayList<Categoria> listaCategorias){
-        return buscarProductos(valor, listaCategorias, new ArrayList<>());
-    }
+    public ArrayList<Producto> buscarProductos(double valor){
+        ArrayList<Producto> aux = new ArrayList<>();
 
-    private static ArrayList<Producto> buscarProductos(double valor, ArrayList<Categoria> listaCategorias, ArrayList<Producto> listaProductosFilter){
-        listaCategorias.forEach(categoria -> {
-            categoria.getListaProductos().forEach(producto -> {
-                if(producto.getPrecio() <= valor){
-                    listaProductosFilter.add(producto);
-                }
-            });
-            buscarProductos(valor, categoria.getListaSubCategorias(), listaProductosFilter);
+        getListaProductos().forEach(producto -> {
+            if(producto.getPrecio() <= valor){
+                aux.add(producto);
+            }
         });
-        return listaProductosFilter;
+
+        getListaSubCategorias().forEach(subCategoria -> {
+            aux.addAll(subCategoria.buscarProductos(valor));
+        });
+
+        return aux;
     }
 
     public void setListaProductos(ArrayList<Producto> listaProductos) {
