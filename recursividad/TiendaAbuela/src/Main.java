@@ -6,6 +6,8 @@ public class Main {
 
         Tienda miTienda = new Tienda("MI TIENDA", "123");
         miTienda.iniciarTiendaPrueba();
-        miTienda.servicioBuscarProductos(200).forEach(producto -> System.out.print(producto.getNombre()+"|"));
+        miTienda.buscarProducto(200).forEach(producto -> {
+            System.out.print(producto.getNombre()+"|");
+        });
    }
 }

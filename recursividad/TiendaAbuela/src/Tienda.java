@@ -4,7 +4,7 @@ public class Tienda {
 
     private String nombre;
     private String nit;
-    private ArrayList<Categoria> listaCategorias;
+    private static ArrayList<Categoria> listaCategorias;
 
     public Tienda(String nombre, String nit){
         this.nombre = nombre;
@@ -20,7 +20,7 @@ public class Tienda {
 
         aseo.getListaProductos().add(new Producto("jabon", 500));
         aseo.getListaProductos().add(new Producto("crema de dientes", 500));
-        aseo.getListaProductos().add(new Producto("detergente", 500));
+        aseo.getListaProductos().add(new Producto("detergente", 100));
 
         granos.getListaProductos().add(new Producto("arroz", 500));
         granos.getListaProductos().add(new Producto("frijoles", 100));
@@ -42,24 +42,6 @@ public class Tienda {
         listaCategorias.add(aseo);
         listaCategorias.add(granos);
         listaCategorias.add(lacteo);
-    }
-
-    private ArrayList<Producto> buscarProductos(double precio, ArrayList<Categoria> listaCategorias, ArrayList<Producto> listaProductosFilter){
-
-        listaCategorias.forEach(categoria -> {
-            categoria.getListaProductos().forEach(producto -> {
-                if(producto.getPrecio() <= precio){
-                    listaProductosFilter.add(producto);
-                }
-            });
-            buscarProductos(precio, categoria.getListaSubCategorias(), listaProductosFilter);
-        });
-
-        return listaProductosFilter;
-    }
-
-    public ArrayList<Producto> servicioBuscarProductos(double precio){
-        return buscarProductos(precio, getListaCategorias(), new ArrayList<>());
     }
 
     public String getNombre() {
@@ -84,5 +66,9 @@ public class Tienda {
 
     public void setListaCategorias(ArrayList<Categoria> listaCategorias) {
         this.listaCategorias = listaCategorias;
+    }
+
+    public static ArrayList<Producto> buscarProducto(double valor) {
+        return Categoria.servicioBuscarProductos(valor, listaCategorias);
     }
 }
