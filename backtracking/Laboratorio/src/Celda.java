@@ -2,9 +2,11 @@ public class Celda extends EspacioPrision{
 
     private Prisionero prisionero;
     private boolean estado;
+    private boolean visistado;
 
-    public Celda(){
-        this.estado = true;
+    public Celda(boolean estado){
+        this.estado = estado;
+        this.visistado = false;
     }
 
     public Prisionero getPrisionero() {
@@ -21,6 +23,14 @@ public class Celda extends EspacioPrision{
 
     public void setEstado(boolean estado) {
         this.estado = estado;
+    }
+
+    public boolean isVisistado() {
+        return visistado;
+    }
+
+    public void setVisistado(boolean visistado) {
+        this.visistado = visistado;
     }
 
     @Override
