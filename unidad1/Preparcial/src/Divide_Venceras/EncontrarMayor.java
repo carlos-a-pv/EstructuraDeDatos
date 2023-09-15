@@ -1,3 +1,5 @@
+package Divide_Venceras;
+
 public class EncontrarMayor {
 
     public static int encontrarMayor(int[] arreglo) {

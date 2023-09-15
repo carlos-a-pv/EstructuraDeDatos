@@ -7,7 +7,7 @@ public class Piso {
 
     private EspacioPrision[][] matrizPisoUno;
 
-    public EspacioPrision[][] recorrerPisoService(EspacioPrision[][] matriz){
+    public EspacioPrision[][]   recorrerPisoService(EspacioPrision[][] matriz){
         this.matrizPisoUno = matriz;
         recorrerPiso(4,0);
         return matrizPisoUno;
