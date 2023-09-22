@@ -1,2 +1,4 @@
-package controller;public class PrincipalViewController {
+package controller;
+
+public class PrincipalViewController {
 }
