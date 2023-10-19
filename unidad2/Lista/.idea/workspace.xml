@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="823b1b74-ce2e-412c-9c7d-561bf512a30e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Preparciales/src/Cola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Preparciales/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Preparciales/src/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Preparciales/src/Pila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/ejercicios/Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/ejercicios/Ejercicio10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/ejercicios/Ejercicio11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/ejercicios/Ejercicio12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/ejercicios/Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/ejercicios/Ejercicio4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/ejercicios/Ejercicio5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/ejercicios/Ejercicio8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/ejercicios/ejercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/estructura_base/Bicola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/estructura_base/Cola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/estructura_base/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/estructura_base/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/estructura_base/Pila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/estructura_base/PilaCola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TallerPilasYColas/src/estructura_base/RunColas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lista.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lista/Lista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lista/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lista/Nodo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Nodo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoBiblioteca/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoBibliotecaa/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoBibliotecaa/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoBibliotecaa/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoBibliotecaa/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoBibliotecaa/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoBibliotecaa/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoBibliotecaa/ProyectoBibliotecaa.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoBibliotecaa/src/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoBibliotecaa/src/controller/PrincipalViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoBibliotecaa/src/view/principal-view.fxml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2W2BS4toJEjqJwHviRGffZEcVQ6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;B:/carlos.perez/Documents/UNIQUINDIO/quinto_semestre/estructura_datos/unidad2/LaboratorioListas&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lista" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="823b1b74-ce2e-412c-9c7d-561bf512a30e" name="Changes" comment="" />
+      <created>1695920793041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695920793041</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
