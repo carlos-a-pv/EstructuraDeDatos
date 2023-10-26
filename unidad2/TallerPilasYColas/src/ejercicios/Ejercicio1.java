@@ -22,7 +22,7 @@ public class Ejercicio1 {
         Pila<Character> pila = new Pila<>();
         String palabraAlreves = "";
 
-        if(palabra.length() == 0){
+    if(palabra.length() == 0){
             return false;
         }
         for (int i = 0; i < palabra.length(); i++) {
